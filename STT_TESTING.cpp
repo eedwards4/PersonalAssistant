@@ -12,7 +12,6 @@
 #include <string>
 #include <thread>
 #include <vector>
-#include <regex>
 
 struct whisper_params {
     int32_t n_threads  = std::min(4, (int32_t) std::thread::hardware_concurrency());
